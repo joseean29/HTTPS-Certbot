@@ -1,5 +1,5 @@
 # HTTPS-Certbot
-#Práctica: HTTPS con Let’s Encrypt y Certbot
+# Práctica: HTTPS con Let’s Encrypt y Certbot
 
 En esta práctica vamos a habilitar el protocolo HTTPS en un sitio web WordPress que se estará ejecutando en una instancia EC2 de Amazon Web Services (AWS).
 1.1 Conceptos básicos
