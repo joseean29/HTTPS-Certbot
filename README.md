@@ -26,15 +26,18 @@ Crear una instancia EC2 en Amazon Web Services (AWS). imagen Cuando esté creand
 
 ### PASO 2
 Registrar un nombre de dominio en algún proveedor de nombres de dominio gratuito. Por ejemplo, puede hacer uso de Freenom. 
-![]()
+![](https://raw.githubusercontent.com/joseean29/HTTPS-Certbot/main/images/midominio.PNG)
 
 ### PASO 3
 Obtener la dirección IP pública de su instancia EC2 en AWS.
 ~~~~
-
+54.146.90.208
 ~~~~
+
 ### PASO 4
 Configurar los registros DNS del proveedor de nombres de dominio para que el nombre de dominio de ha registrado pueda resolver hacia la dirección IP pública de su instancia EC2 de AWS. 
+
+![](https://raw.githubusercontent.com/joseean29/HTTPS-Certbot/main/images/jabajur.ml.PNG)
 
 ### PASO5
 Instalar y configurar el cliente ACME Certbot en su instacia EC2 de AWS, siguiendo los pasos de la documentación oficial.
@@ -137,9 +140,12 @@ Con el siguiente comando podemos comprobar que hay un temporizador en el sistema
 systemctl list-timers
 ~~~~
 
-Por último instalamos Wordpress a través del script de las prácticas anteriores de WP-cli.
+![](https://raw.githubusercontent.com/joseean29/HTTPS-Certbot/main/images/list-timer.PNG)
 
+Por último instalamos Wordpress a través del script de las prácticas anteriores de WP-cli.
 
 Tras todo eso este sería el resultado:
 
+![](https://raw.githubusercontent.com/joseean29/HTTPS-Certbot/main/images/sitio%20web.PNG)
+)
 
