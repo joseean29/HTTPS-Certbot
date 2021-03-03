@@ -147,5 +147,5 @@ Por último instalamos Wordpress a través del script de las prácticas anterior
 Tras todo eso este sería el resultado:
 
 ![](https://raw.githubusercontent.com/joseean29/HTTPS-Certbot/main/images/sitio%20web.PNG)
-)
+
 
