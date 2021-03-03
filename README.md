@@ -27,6 +27,7 @@ Crear una instancia EC2 en Amazon Web Services (AWS). imagen Cuando esté creand
 ### PASO 2
 Registrar un nombre de dominio en algún proveedor de nombres de dominio gratuito. Por ejemplo, puede hacer uso de Freenom. 
 ![]()
+
 ### PASO 3
 Obtener la dirección IP pública de su instancia EC2 en AWS.
 ~~~~
@@ -136,10 +137,9 @@ Con el siguiente comando podemos comprobar que hay un temporizador en el sistema
 systemctl list-timers
 ~~~~
 
-Reemplazamos las direcciones
-wp search-replace 'http://la ip publica' 'https://nombre del dominio'
+Por último instalamos Wordpress a través del script de las prácticas anteriores de WP-cli.
 
 
-Este seria el resultado:
+Tras todo eso este sería el resultado:
 
 
